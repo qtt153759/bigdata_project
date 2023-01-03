@@ -48,39 +48,70 @@
     <dependency>
       <groupId>io.confluent</groupId>
       <artifactId>kafka-avro-serializer</artifactId>
-      <version>3.1.1</version>
+      <version>5.3.0</version>
     </dependency>
+    <dependency>
+      <groupId>io.confluent</groupId>
+      <artifactId>kafka-schema-registry-client</artifactId>
+      <version>7.1.1</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.codehaus.jackson/jackson-mapper-lgpl -->
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-core-lgpl</artifactId>
+      <version>1.9.13</version>
+    </dependency>
+
+
+
   </dependencies>
 
   <build>
-    <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <!-- avro -->
         <plugin>
           <groupId>org.apache.avro</groupId>
           <artifactId>avro-maven-plugin</artifactId>
-          <version>1.11.1</version>
+          <version>1.10.1</version>
           <executions>
             <execution>
               <phase>generate-sources</phase>
               <goals>
                 <goal>schema</goal>
+                <goal>protocol</goal>
+                <goal>idl-protocol</goal>
               </goals>
               <configuration>
-                <sourceDirectory>${project.basedir}/src/main/avro/</sourceDirectory>
-                <outputDirectory>${project.basedir}/src/main/java/</outputDirectory>
+                <sourceDirectory>${project.basedir}/src/main/resources/avro</sourceDirectory>
+                <stringType>String</stringType>
+                <createSetters>false</createSetters>
+                <enableDecimalLogicalType>true</enableDecimalLogicalType>
+                <fieldVisibility>private</fieldVisibility>
               </configuration>
             </execution>
           </executions>
         </plugin>
+        <!--force discovery of generated classes -->
         <plugin>
-          <groupId>org.apache.maven.plugins</groupId>
-          <artifactId>maven-compiler-plugin</artifactId>
-          <configuration>
-            <source>1.8</source>
-            <target>1.8</target>
-          </configuration>
+          <groupId>org.codehaus.mojo</groupId>
+          <artifactId>build-helper-maven-plugin</artifactId>
+          <version>3.0.0</version>
+          <executions>
+            <execution>
+              <id>add-source</id>
+              <phase>generate-sources</phase>
+              <goals>
+                <goal>add-source</goal>
+              </goals>
+              <configuration>
+                <sources>
+                  <source>target/generated-sources/avro</source>
+                </sources>
+              </configuration>
+            </execution>
+          </executions>
         </plugin>
+
         <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
@@ -104,9 +135,11 @@
           <version>3.0.2</version>
           <configuration>  
                 <archive>  
-                    <manifest>  
-                        <mainClass>bigdata_project.producer</mainClass>  
-                    </manifest>  
+                    <manifest>
+                      <addClasspath>true</addClasspath>
+                      <classpathPrefix>lib/</classpathPrefix>
+                      <mainClass>bigdata_project</mainClass>
+                    </manifest>
                 </archive>  
             </configuration>  
         </plugin>
@@ -127,7 +160,8 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>3.0.0</version>
         </plugin>
+
+        <!--        copy avro confluent-->
       </plugins>
-    </pluginManagement>
   </build>
 </project>

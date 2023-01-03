@@ -1,9 +1,0 @@
-{
-  "type": "record",
-  "namespace": "bigdata_project",
-  "name": "economicIndicatorRecord",
-  "fields": [
-    { "name": "date", "type": "Date" },
-    { "name": "value", "type": "Double" }
-  ]
-}

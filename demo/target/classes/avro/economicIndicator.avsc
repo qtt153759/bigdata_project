@@ -1,0 +1,10 @@
+{
+  "type": "record",
+  "namespace": "bigdata_project",
+  "name": "economicIndicatorRecord",
+  "fields": [
+    { "name": "date", "type": "long", "logicalType": "date"},
+    { "name": "value", "type": ["double","null"]},
+    { "name": "interval", "type": "string"}
+  ]
+}

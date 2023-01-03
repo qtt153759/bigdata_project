@@ -1,6 +1,6 @@
-cd ../kafka/
-./bin/zookeeper-server-start.sh config/zookeeper.properties &
-cd ../kafka/
-./bin/kafka-server-start.sh config/server.properties &
-cd ../kafka/
-./bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic news --replication-factor 1 --partitions 1
+cd ~/confluent-7.3.1/ &&
+./bin/zookeeper-server-start etc/kafka/zookeeper.properties &
+cd ~/confluent-7.3.1/ &&
+./bin/kafka-server-start etc/kafka/server.properties &
+cd ~/confluent-7.3.1/ &&
+./bin/schema-registry-start etc/schema-registry/schema-registry.properties &

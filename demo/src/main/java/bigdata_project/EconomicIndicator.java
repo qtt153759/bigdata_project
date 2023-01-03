@@ -11,7 +11,7 @@ public class EconomicIndicator {
     this.interval = interval;
   }
 
-  public EconomicIndicatorRecord[] getdata() {
+  public EconomicIndicatorRecord[] getData() {
     return data;
   }
 
