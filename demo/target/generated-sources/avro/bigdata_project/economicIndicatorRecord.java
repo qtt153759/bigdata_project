@@ -14,8 +14,8 @@ import org.apache.avro.message.SchemaStore;
 
 @org.apache.avro.specific.AvroGenerated
 public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRecordBase implements org.apache.avro.specific.SpecificRecord {
-  private static final long serialVersionUID = -5687424854337985586L;
-  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"economicIndicatorRecord\",\"namespace\":\"bigdata_project\",\"fields\":[{\"name\":\"date\",\"type\":\"long\",\"logicalType\":\"date\"},{\"name\":\"value\",\"type\":[\"double\",\"null\"]},{\"name\":\"interval\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}}]}");
+  private static final long serialVersionUID = 1147435637772576883L;
+  public static final org.apache.avro.Schema SCHEMA$ = new org.apache.avro.Schema.Parser().parse("{\"type\":\"record\",\"name\":\"economicIndicatorRecord\",\"namespace\":\"bigdata_project\",\"fields\":[{\"name\":\"id\",\"type\":\"long\"},{\"name\":\"date\",\"type\":\"long\",\"logicalType\":\"date\"},{\"name\":\"value\",\"type\":[\"double\",\"null\"]},{\"name\":\"interval\",\"type\":{\"type\":\"string\",\"avro.java.string\":\"String\"}}]}");
   public static org.apache.avro.Schema getClassSchema() { return SCHEMA$; }
 
   private static SpecificData MODEL$ = new SpecificData();
@@ -71,6 +71,7 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
     return DECODER.decode(b);
   }
 
+   private long id;
    private long date;
    private java.lang.Double value;
    private java.lang.String interval;
@@ -84,11 +85,13 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
 
   /**
    * All-args constructor.
+   * @param id The new value for id
    * @param date The new value for date
    * @param value The new value for value
    * @param interval The new value for interval
    */
-  public economicIndicatorRecord(java.lang.Long date, java.lang.Double value, java.lang.String interval) {
+  public economicIndicatorRecord(java.lang.Long id, java.lang.Long date, java.lang.Double value, java.lang.String interval) {
+    this.id = id;
     this.date = date;
     this.value = value;
     this.interval = interval;
@@ -99,9 +102,10 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
   // Used by DatumWriter.  Applications should not call.
   public java.lang.Object get(int field$) {
     switch (field$) {
-    case 0: return date;
-    case 1: return value;
-    case 2: return interval;
+    case 0: return id;
+    case 1: return date;
+    case 2: return value;
+    case 3: return interval;
     default: throw new IndexOutOfBoundsException("Invalid index: " + field$);
     }
   }
@@ -110,12 +114,23 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
   @SuppressWarnings(value="unchecked")
   public void put(int field$, java.lang.Object value$) {
     switch (field$) {
-    case 0: date = (java.lang.Long)value$; break;
-    case 1: value = (java.lang.Double)value$; break;
-    case 2: interval = value$ != null ? value$.toString() : null; break;
+    case 0: id = (java.lang.Long)value$; break;
+    case 1: date = (java.lang.Long)value$; break;
+    case 2: value = (java.lang.Double)value$; break;
+    case 3: interval = value$ != null ? value$.toString() : null; break;
     default: throw new IndexOutOfBoundsException("Invalid index: " + field$);
     }
   }
+
+  /**
+   * Gets the value of the 'id' field.
+   * @return The value of the 'id' field.
+   */
+  public long getId() {
+    return id;
+  }
+
+
 
   /**
    * Gets the value of the 'date' field.
@@ -188,6 +203,7 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
   public static class Builder extends org.apache.avro.specific.SpecificRecordBuilderBase<economicIndicatorRecord>
     implements org.apache.avro.data.RecordBuilder<economicIndicatorRecord> {
 
+    private long id;
     private long date;
     private java.lang.Double value;
     private java.lang.String interval;
@@ -203,17 +219,21 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
      */
     private Builder(bigdata_project.economicIndicatorRecord.Builder other) {
       super(other);
-      if (isValidValue(fields()[0], other.date)) {
-        this.date = data().deepCopy(fields()[0].schema(), other.date);
+      if (isValidValue(fields()[0], other.id)) {
+        this.id = data().deepCopy(fields()[0].schema(), other.id);
         fieldSetFlags()[0] = other.fieldSetFlags()[0];
       }
-      if (isValidValue(fields()[1], other.value)) {
-        this.value = data().deepCopy(fields()[1].schema(), other.value);
+      if (isValidValue(fields()[1], other.date)) {
+        this.date = data().deepCopy(fields()[1].schema(), other.date);
         fieldSetFlags()[1] = other.fieldSetFlags()[1];
       }
-      if (isValidValue(fields()[2], other.interval)) {
-        this.interval = data().deepCopy(fields()[2].schema(), other.interval);
+      if (isValidValue(fields()[2], other.value)) {
+        this.value = data().deepCopy(fields()[2].schema(), other.value);
         fieldSetFlags()[2] = other.fieldSetFlags()[2];
+      }
+      if (isValidValue(fields()[3], other.interval)) {
+        this.interval = data().deepCopy(fields()[3].schema(), other.interval);
+        fieldSetFlags()[3] = other.fieldSetFlags()[3];
       }
     }
 
@@ -223,18 +243,61 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
      */
     private Builder(bigdata_project.economicIndicatorRecord other) {
       super(SCHEMA$);
-      if (isValidValue(fields()[0], other.date)) {
-        this.date = data().deepCopy(fields()[0].schema(), other.date);
+      if (isValidValue(fields()[0], other.id)) {
+        this.id = data().deepCopy(fields()[0].schema(), other.id);
         fieldSetFlags()[0] = true;
       }
-      if (isValidValue(fields()[1], other.value)) {
-        this.value = data().deepCopy(fields()[1].schema(), other.value);
+      if (isValidValue(fields()[1], other.date)) {
+        this.date = data().deepCopy(fields()[1].schema(), other.date);
         fieldSetFlags()[1] = true;
       }
-      if (isValidValue(fields()[2], other.interval)) {
-        this.interval = data().deepCopy(fields()[2].schema(), other.interval);
+      if (isValidValue(fields()[2], other.value)) {
+        this.value = data().deepCopy(fields()[2].schema(), other.value);
         fieldSetFlags()[2] = true;
       }
+      if (isValidValue(fields()[3], other.interval)) {
+        this.interval = data().deepCopy(fields()[3].schema(), other.interval);
+        fieldSetFlags()[3] = true;
+      }
+    }
+
+    /**
+      * Gets the value of the 'id' field.
+      * @return The value.
+      */
+    public long getId() {
+      return id;
+    }
+
+
+    /**
+      * Sets the value of the 'id' field.
+      * @param value The value of 'id'.
+      * @return This builder.
+      */
+    public bigdata_project.economicIndicatorRecord.Builder setId(long value) {
+      validate(fields()[0], value);
+      this.id = value;
+      fieldSetFlags()[0] = true;
+      return this;
+    }
+
+    /**
+      * Checks whether the 'id' field has been set.
+      * @return True if the 'id' field has been set, false otherwise.
+      */
+    public boolean hasId() {
+      return fieldSetFlags()[0];
+    }
+
+
+    /**
+      * Clears the value of the 'id' field.
+      * @return This builder.
+      */
+    public bigdata_project.economicIndicatorRecord.Builder clearId() {
+      fieldSetFlags()[0] = false;
+      return this;
     }
 
     /**
@@ -252,9 +315,9 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
       * @return This builder.
       */
     public bigdata_project.economicIndicatorRecord.Builder setDate(long value) {
-      validate(fields()[0], value);
+      validate(fields()[1], value);
       this.date = value;
-      fieldSetFlags()[0] = true;
+      fieldSetFlags()[1] = true;
       return this;
     }
 
@@ -263,7 +326,7 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
       * @return True if the 'date' field has been set, false otherwise.
       */
     public boolean hasDate() {
-      return fieldSetFlags()[0];
+      return fieldSetFlags()[1];
     }
 
 
@@ -272,7 +335,7 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
       * @return This builder.
       */
     public bigdata_project.economicIndicatorRecord.Builder clearDate() {
-      fieldSetFlags()[0] = false;
+      fieldSetFlags()[1] = false;
       return this;
     }
 
@@ -291,9 +354,9 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
       * @return This builder.
       */
     public bigdata_project.economicIndicatorRecord.Builder setValue(java.lang.Double value) {
-      validate(fields()[1], value);
+      validate(fields()[2], value);
       this.value = value;
-      fieldSetFlags()[1] = true;
+      fieldSetFlags()[2] = true;
       return this;
     }
 
@@ -302,7 +365,7 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
       * @return True if the 'value' field has been set, false otherwise.
       */
     public boolean hasValue() {
-      return fieldSetFlags()[1];
+      return fieldSetFlags()[2];
     }
 
 
@@ -312,7 +375,7 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
       */
     public bigdata_project.economicIndicatorRecord.Builder clearValue() {
       value = null;
-      fieldSetFlags()[1] = false;
+      fieldSetFlags()[2] = false;
       return this;
     }
 
@@ -331,9 +394,9 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
       * @return This builder.
       */
     public bigdata_project.economicIndicatorRecord.Builder setInterval(java.lang.String value) {
-      validate(fields()[2], value);
+      validate(fields()[3], value);
       this.interval = value;
-      fieldSetFlags()[2] = true;
+      fieldSetFlags()[3] = true;
       return this;
     }
 
@@ -342,7 +405,7 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
       * @return True if the 'interval' field has been set, false otherwise.
       */
     public boolean hasInterval() {
-      return fieldSetFlags()[2];
+      return fieldSetFlags()[3];
     }
 
 
@@ -352,7 +415,7 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
       */
     public bigdata_project.economicIndicatorRecord.Builder clearInterval() {
       interval = null;
-      fieldSetFlags()[2] = false;
+      fieldSetFlags()[3] = false;
       return this;
     }
 
@@ -361,9 +424,10 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
     public economicIndicatorRecord build() {
       try {
         economicIndicatorRecord record = new economicIndicatorRecord();
-        record.date = fieldSetFlags()[0] ? this.date : (java.lang.Long) defaultValue(fields()[0]);
-        record.value = fieldSetFlags()[1] ? this.value : (java.lang.Double) defaultValue(fields()[1]);
-        record.interval = fieldSetFlags()[2] ? this.interval : (java.lang.String) defaultValue(fields()[2]);
+        record.id = fieldSetFlags()[0] ? this.id : (java.lang.Long) defaultValue(fields()[0]);
+        record.date = fieldSetFlags()[1] ? this.date : (java.lang.Long) defaultValue(fields()[1]);
+        record.value = fieldSetFlags()[2] ? this.value : (java.lang.Double) defaultValue(fields()[2]);
+        record.interval = fieldSetFlags()[3] ? this.interval : (java.lang.String) defaultValue(fields()[3]);
         return record;
       } catch (org.apache.avro.AvroMissingFieldException e) {
         throw e;
@@ -396,6 +460,8 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
   @Override public void customEncode(org.apache.avro.io.Encoder out)
     throws java.io.IOException
   {
+    out.writeLong(this.id);
+
     out.writeLong(this.date);
 
     if (this.value == null) {
@@ -415,6 +481,8 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
   {
     org.apache.avro.Schema.Field[] fieldOrder = in.readFieldOrderIfDiff();
     if (fieldOrder == null) {
+      this.id = in.readLong();
+
       this.date = in.readLong();
 
       if (in.readIndex() != 0) {
@@ -427,13 +495,17 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
       this.interval = in.readString();
 
     } else {
-      for (int i = 0; i < 3; i++) {
+      for (int i = 0; i < 4; i++) {
         switch (fieldOrder[i].pos()) {
         case 0:
-          this.date = in.readLong();
+          this.id = in.readLong();
           break;
 
         case 1:
+          this.date = in.readLong();
+          break;
+
+        case 2:
           if (in.readIndex() != 0) {
             in.readNull();
             this.value = null;
@@ -442,7 +514,7 @@ public class economicIndicatorRecord extends org.apache.avro.specific.SpecificRe
           }
           break;
 
-        case 2:
+        case 3:
           this.interval = in.readString();
           break;
 
