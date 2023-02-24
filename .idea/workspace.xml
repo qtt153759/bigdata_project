@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3910b85-396b-4bbd-98ac-a04aa53ce666" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/bigdata_project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_101tec_zkclient_0_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_12_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_12_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_12_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_luben_zstd_jni_1_5_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_spotbugs_spotbugs_annotations_3_1_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_gson_gson_2_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_failureaccess_1_0_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_30_1_1_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_listenablefuture_9999_0_empty_to_avoid_conflict_with_guava.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okhttp3_okhttp_3_11_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_squareup_okio_okio_1_14_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_common_config_5_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_common_utils_5_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_kafka_avro_serializer_5_3_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_confluent_kafka_schema_registry_client_7_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_swagger_core_v3_swagger_annotations_2_1_10.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jline_jline_0_9_94.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_8_15.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_avro_avro_1_11_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_compress_1_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_exec_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_clients_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_kafka_kafka_streams_3_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_17_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_17_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_yetus_audience_annotations_0_5_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_zookeeper_zookeeper_3_4_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_qual_3_8_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_lgpl_1_9_13.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_lz4_lz4_java_1_7_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_rocksdb_rocksdbjni_6_19_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_api_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_chrome_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_edge_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_firefox_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_ie_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_java_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_opera_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_remote_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_safari_driver_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_seleniumhq_selenium_selenium_support_3_141_59.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_36.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_21.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_snappy_snappy_java_1_1_8_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/bigdata-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/avro-1.8.2-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/.ipynb_checkpoints/bigdata-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/avro-1.8.2-javadoc.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/src/main/java/bigdata_project/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/src/main/java/bigdata_project/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/src/main/java/bigdata_project/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/src/main/java/bigdata_project/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/src/main/java/bigdata_project/model/TradeStats.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/src/main/java/bigdata_project/model/TradeStats.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/src/main/java/bigdata_project/streamingProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/src/main/java/bigdata_project/streamingProducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/Constants.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/Constants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/batchProducer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/batchProducer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/batchProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/batchProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/economicIndicatorRecord$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/economicIndicatorRecord$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/economicIndicatorRecord$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/economicIndicatorRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/economicIndicatorRecord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/EURUSD.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/EURUSD.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/EconomicIndicator.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/EconomicIndicator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/EconomicIndicatorRecord.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/EconomicIndicatorRecord.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/LIVE_INDEX.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/LIVE_INDEX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/Mental.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/Mental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/OIL.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/OIL.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/Topic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/Trade.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/Trade.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/TradeStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/TradeStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/Treasury_yield.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/model/Treasury_yield.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/serde/JsonDeserializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/serde/JsonDeserializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/serde/JsonSerializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/serde/JsonSerializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/serde/WrapperSerde.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/serde/WrapperSerde.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/streamingProducer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/streamingProducer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/streamingProducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/streamingProducer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/streamingStats$TradeSerde.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/streamingStats$TradeSerde.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/streamingStats$TradeStatsSerde.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/streamingStats$TradeStatsSerde.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/streamingStats.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/classes/bigdata_project/streamingStats.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/demo-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/demo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/original-demo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/surefire-reports/TEST-bigdata_project.AppTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/surefire-reports/TEST-bigdata_project.AppTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/surefire-reports/bigdata_project.AppTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/surefire-reports/bigdata_project.AppTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/demo/target/test-classes/bigdata_project/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/bigdata_project/demo/target/test-classes/bigdata_project/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/produce.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/pyspark_template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bigdata_project/start_all.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/dependency-reduced-pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/App.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/Constants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/batchProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/model/EURUSD.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/model/EconomicIndicator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/model/EconomicIndicatorRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/model/LIVE_INDEX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/model/Mental.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/model/OIL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/model/Topic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/model/Trade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/model/TradeStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/model/Treasury_yield.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/serde/JsonDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/serde/JsonSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/serde/WrapperSerde.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/streamingProducer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/java/bigdata_project/streamingStats.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/avro/economicIndicator.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/test/java/bigdata_project/AppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/avro/economicIndicator.avsc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/App.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/Constants.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/batchProducer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/batchProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/economicIndicatorRecord$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/economicIndicatorRecord$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/economicIndicatorRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/model/EURUSD.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/model/EconomicIndicator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/model/EconomicIndicatorRecord.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/model/LIVE_INDEX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/model/Mental.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/model/OIL.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/model/Topic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/model/Trade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/model/TradeStats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/model/Treasury_yield.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/serde/JsonDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/serde/JsonSerializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/serde/WrapperSerde.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/streamingProducer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/streamingProducer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/streamingStats$TradeSerde.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/streamingStats$TradeStatsSerde.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/bigdata_project/streamingStats.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/demo-1.0-SNAPSHOT-jar-with-dependencies.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/demo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/generated-sources/avro/bigdata_project/economicIndicatorRecord.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/original-demo-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-bigdata_project.AppTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/surefire-reports/bigdata_project.AppTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/test-classes/bigdata_project/AppTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/produce.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyspark_template" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/start_all.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/us_per_capital_real_gdp_by_state.csv" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2MBqj2euE81a7qTdd4ZAgiZ4UmP" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3910b85-396b-4bbd-98ac-a04aa53ce666" name="Changes" comment="" />
+      <created>1677251458230</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677251458230</updated>
+    </task>
+    <servers />
+  </component>
+</project>

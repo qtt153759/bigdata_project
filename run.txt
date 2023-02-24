@@ -1,0 +1,8 @@
+Cách chạy spark submit: docker exec Vào container spark-master và run 2 opt
+
+
+/opt/spark/bin/spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.0.2,org.apache.spark:spark-avro_2.12:3.0.2 --jars /opt/spark-apps/postgresql-42.5.1.jar /opt/spark-apps/live_bigdata.py 
+
+
+
+/opt/spark/bin/spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.0.2,org.apache.spark:spark-avro_2.12:3.0.2 /opt/spark-apps/bigdata.py 
